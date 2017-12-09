@@ -1,86 +1,164 @@
+
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8" />
- 		<title>My Main Page</title>
- 		<link rel="stylesheet" type="css" href="jiangge2_mp1_Mystyle.css">
- 		<style>
- 			#haiku {
- 				text-align: center;
- 				color: green;
- 			}
- 			p {
- 				text-align:justify;
- 			}
- 			.tabcell {
- 				position:absolute;
- 				height:20px;
- 				width:100px;
- 			}
- 			.tabrow1{
- 				text-decoration:underline;
- 				font-weight:bold;
- 				top:0px;
- 			}
-
- 			.tabrow2{top:21px;}
- 			.tabrow3{top:41px;}
- 			.tabrow4{top:61px;}
- 			.tabcol1{left:0px;}
- 			.tabcol2{left:100px;}
- 			.tabcol3{left:200px;}
-
- 		</style>
-	</head>
-
-	<body>
-		<div id="titlebar">
-			<img id="titleimg" src="https://www.w3schools.com/html/html5.gif" alt="Image 1" />
- 			<a id="homebutton" class="titlebar" href="jiangge2_mp1_index.html"> Home</a>
- 			<a id="contactbutton" class="titlebar" href="jiangge2_mp1_contact.html">Contact us</a>
- 		</div>
-	<h1>My Main Page</h1>
-		<img style="display:block; margin:auto;" src="https://www.w3schools.com/html/pic_mountain.jpg" alt="image 2" />
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a nibh dictum, cursus augue ac, elementum lectus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris accumsan mauris libero, eu pulvinar augue interdum elementum. Duis id eros efficitur dolor rhoncus vehicula. Suspendisse porta aliquam nulla sed dapibus. Etiam tincidunt lectus eget augue scelerisque pretium. Ut tempor arcu a justo tincidunt porta. Aliquam pulvinar, nunc et lobortis posuere, odio eros ultrices nunc, pharetra porttitor massa dolor a dui.
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Xingzhi Liu</title>
+<!-- load stylesheets -->
+<link rel="stylesheet" href="css/bootstrap.min.css">                                      <!-- Bootstrap style -->
+<link rel="stylesheet" href="css/templatemo-style.css">                                   <!-- Templatemo style -->
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+</head>
+<body>
+<!-- <audio autoplay loop src="music/luoxiaohei.mp3" preload="auto"></audio> -->
+<div class="container tm-container">
+<div class="row navbar-row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 navbar-container">
+	<a href="javascript:void(0)" class="navbar-brand" id="go-to-top">
+		<figure>
+			<figcaption>Xingzhi Liu</figcaption>					
+			<img id="myself" src="img/myself.jpg" alt="myself.jpg">
+		</figure>
+	</a>
+	<nav class="navbar navbar-full">
+		<div class="collapse navbar-toggleable-md" id="tmNavbar">                            
+			<ul class="nav navbar-nav">
+				<li class="nav-item current-page">
+					<a class="nav-link">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./src/resume.pdf">Resume</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://github.com/liuxingzhi">Portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="mailto:xingzhi2@illinois.edu">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>    
+	<button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#tmNavbar">
+		&#9776;
+	</button>
+</div>
+</div>
+<div id="tm-page-content">                
+<!-- #home -->
+<section id="tm-section-1" class="row tm-section">
+	<div class="tm-white-curve-left col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-6">
+		<div class="tm-white-curve-left-rec"></div>
+		<div class="tm-white-curve-left-circle"></div>
+		<div class="tm-white-curve-text">
+			<h2 class="tm-section-header blue-text">Introduction</h2>
+			<p>Hello everyone, welcome to my blog. let's start your trip from here! <p>
+			<p>
+				My name is Xingzhi Liu. I am an international student from China. I am currently studying in University of Illinois at Urbana-Champaign. This is my first year in college and I have done a lot of programming. 
+			</p>    
+		</div>                        
+	</div>
+	<div class="tm-home-right col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-6">
+		<h2 class="tm-section-header">About</h2>
+		<p class="thin-font">Personally, I think I am an enthusiastic person. Besides programming, I like playing guitar, especially finger style. Sungha Jung is my favorite guitarist. In addition, I join my school's Go club. I am amateur three dan in Go. Our Go team just won University of Toronto in Go competition last week. </p>
+	</div>
+</section> 
+<section id="tm-section-2" class="row tm-section">
+	<div class="tm-flex-center col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-6">
+		<img src="img/dream.jpg" alt="resume page img" class="img-fluid tm-img" id="dream">
+	</div>
+	<div class="tm-white-curve-right col-xs-12 col-sm-6 col-md-6 col-lg-7 col-xl-6">
+		<div class="tm-white-curve-right-circle"></div>
+		<div class="tm-white-curve-right-rec"></div>
+		<div class="tm-white-curve-text">
+			<a href="./src/resume.pdf"><h2 class="tm-section-header red-text">Resume</h2></a>
+			<p>
+				Click on resume title, and download will start. 
+			</p>
+			<p>
+				I can program in basic java, python and front end web. 
+				I take cs196 this semester and expose to a lot cool stuffs such as pandas and numpy. It is a great experience. I will continue to explore the field of data science in the future.
+			</p> 
+		</div>
+	</div>
+</section> 
+<section id="tm-section-3" class="row tm-section">
+	<div class="tm-white-curve-left col-xs-12 col-sm-6 col-md-6 col-lg-7 col-xl-6">
+		<div class="tm-white-curve-left-rec">
+		</div>
+		<div class="tm-white-curve-left-circle">
+		</div>
+		<div class="tm-white-curve-text">
+			<a href="https://github.com/liuxingzhi"><h2 class="tm-section-header gray-text">Portfolio</h2></a>
+			<p class="thin-font">
+				Click on Portfolio title will enter my portfolio page (not yet, still under construction, now it redirects to my github page)
+			</p>
+			<p>
+			
+			</p>    
+		</div>
+	</div>
+	<div class="tm-flex-center col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-6">
+		<img src="img/flyinghouse.jpg" alt="portfolio img" class="img-fluid tm-img">
+	</div>
+</section> 
+<section id="tm-section-4" class="row tm-section">
+	<div class="tm-flex-center col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-6">
+		<img src="img/book2.jpg" alt="BookImage" class="img-fluid tm-img">
+	</div>
+	<div class="tm-white-curve-right col-xs-12 col-sm-6 col-md-6 col-lg-7 col-xl-6">
+		<div class="tm-white-curve-right-circle"></div>
+		<div class="tm-white-curve-right-rec"></div>
+		 <div class="tm-white-curve-text"> 
+			 	<h2 class="tm-section-header green-text">Contact me</h2>                           
+                
+                         
+                <div class="contact-info-links-container">
+                	<!-- <h3 class="tm-section-subheader green-text">My Address</h3> -->
+                	<address class="green-text contact-info">
+                    	My Address: <span style="color: #000000"> 904 W Green St Urbana, IL 61801 </span>
+              		</address>  
+                    <p class="green-text contact-info">
+                    	Tel: <span style="color: #000000">(217)-904-9459</span></p>
+                    <p class="green-text contact-info">
+                    	Email: <a href="mailto:xingzhi2@illinois.edu" class="contact-info-link">xingzhi2@illinois.edu</a></p>    
+                    <p class="green-text contact-info"> Facebook: <a href="https://www.facebook.com/xingzhi.liu.10">xingzhi</a> </p>
+                </div>                         
+            </div>          
+	</div>
+</section> 
+<footer class="row tm-footer">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+		<p class="text-xs-center tm-footer-text">						
 		</p>
-		<hr />
-
-	<h2>I like Haiku</h2>
-	<div id="haiku">
-		CSS you make <br />
-		All things pretty, yet so painful<br />
-		Why must you exist? <br />
 	</div>
-	<hr />
-
-	<h2>List, Lists Everywhere!</h2>
-		<ol type="I">
-			<li>Milk</li>
-			<li>Pop</li>
-				<ol type="i">
-					<li>Coke</li>
-					<li>Dr. Pepper</li>
-				</ol>
-			<li>Tea</li>
-		</ol>
-	<hr />
-
-	<h2>A Table of Friends</h2>
-	<div style="position:relative;height:80px;width:300px;border:solid black 1px;">
-		<div class="tabcell tabcol1 tabrow1">First Name</div>
-		<div class="tabcell tabcol2 tabrow1">Last Name</div>
-		<div class="tabcell tabcol3 tabrow1">Rank</div>
-		<div class="tabcell tabcol1 tabrow2">Aaron</div>
-		<div class="tabcell tabcol2 tabrow2">Smith</div>
-		<div class="tabcell tabcol3 tabrow2">2</div>
-		<div class="tabcell tabcol1 tabrow3">Mary</div>
-		<div class="tabcell tabcol2 tabrow3">Mace</div>
-		<div class="tabcell tabcol3 tabrow3">1</div>
-		<div class="tabcell tabcol1 tabrow4">Lee</div>
-		<div class="tabcell tabcol2 tabrow4">Johnson</div>
-		<div class="tabcell tabcol3 tabrow4">3</div>
-	</div>
-
-
-	</body>
+</footer>                      
+</div>
+</div> 
+<!-- load JS files -->
+<script src="js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
+<script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script><!-- Tether for Bootstrap, http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h --> 
+<script src="js/bootstrap.min.js"></script>                 <!-- Bootstrap (http://v4-alpha.getbootstrap.com/) -->
+<script src="js/jquery.singlePageNav.min.js"></script>      <!-- Single Page Nav (https://github.com/ChrisWojcik/single-page-nav) -->
+<script>     
+var bigNavbarHeight = 90;
+var smallNavbarHeight = 68;
+var navbarHeight = bigNavbarHeight;                 
+$(document).ready(function(){
+var topOffset = 180;
+$(window).scroll(function(){
+	if($(this).scrollTop() > topOffset) {
+		$(".navbar-container").addClass("sticky");
+		$("#myself").css('display','none');
+	}
+	else {
+		$(".navbar-container").removeClass("sticky");
+		$("#myself").css('display','block');
+	}
+});
+});
+</script>             
+</body>
 </html>
