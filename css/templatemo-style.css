@@ -62,7 +62,7 @@ p:last-child { margin-bottom: 0; }
 
 .navbar-row { position: relative; }
 .navbar-container {
-	background-color: #cc9900; 
+	background-color: #cc6600; 
 	font-size: 1em;
 	position: absolute; 
 	display: -webkit-flex;
@@ -85,7 +85,7 @@ p:last-child { margin-bottom: 0; }
 }
 
 .navbar-container.sticky {
-	background-color: rgba(204, 153, 0, 0.9);
+	background-color: rgba(153, 204, 0, 0.9);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -134,7 +134,7 @@ p:last-child { margin-bottom: 0; }
 .current-page,
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-	background-color: #9a6600;
+	background-color: #9a9900;
 	color: white;
 	text-decoration: none;
 }
@@ -183,7 +183,7 @@ p:last-child { margin-bottom: 0; }
 /*#tm-section-1 {	background-image: url(../img/strip-bg-01.jpg); }*/
 #tm-section-1 {	background-color: #287ca8; }
 /*#tm-section-2 {	background-image: url(../img/strip-bg-02.jpg); }*/
-#tm-section-2 {	background-color: rgb(150, 63, 10); }
+#tm-section-2 {	background-color: rgb(63, 10, 150); }
 /*#tm-section-3 {	background-image: url(../img/strip-bg-03.jpg); }*/
 #tm-section-3 {	background-color: #474747; }
 /*#tm-section-4 {	background-image: url(../img/strip-bg-04.jpg); }*/
