@@ -180,8 +180,8 @@ p:last-child { margin-bottom: 0; }
 */
 
 
-/*#tm-section-1 {	background-image: url(../img/strip-bg-01.jpg); }*/
-#tm-section-1 {	background-color: #287ca8; }
+#tm-section-1 {	background-image: url(../src/background.jpg); }
+/*#tm-section-1 {	background-color: #287ca8; }*/
 /*#tm-section-2 {	background-image: url(../img/strip-bg-02.jpg); }*/
 #tm-section-2 {	background-color: rgb(63, 10, 150); }
 /*#tm-section-3 {	background-image: url(../img/strip-bg-03.jpg); }*/
