@@ -190,7 +190,7 @@ p:last-child { margin-bottom: 0; }
 /*#tm-section-4 {	background-color: rgb(63,10,150); }*/
 
 
-tm-footer { 
+.tm-footer { 
 	background-image: url(../src/background.jpg);
 	font-weight: 300;
 	display: -webkit-flex; 
