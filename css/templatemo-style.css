@@ -304,11 +304,11 @@ p:last-child { margin-bottom: 0; }
 	justify-content: center;
 	padding: 60px;
 }
-
-/*.tm-contact-form-left {	padding-right: 0; }
+/*
+.tm-contact-form-left {	padding-right: 0; }
 .tm-contact-form-right { padding-right: 0; }
-*/
-/*.form-control::-webkit-input-placeholder {  Chrome/Opera/Safari 
+
+.form-control::-webkit-input-placeholder {  Chrome/Opera/Safari 
 	color: rgba(255,255,255,0.75);
 	font-weight: 300;
 }
@@ -324,7 +324,7 @@ p:last-child { margin-bottom: 0; }
 	color: rgba(255,255,255,0.75);
 	font-weight: 300;
 	}*/
-/*
+
 .form-control,
 .submit-btn {
 	border-radius: 0;
@@ -365,7 +365,7 @@ p:last-child { margin-bottom: 0; }
 	color: #2A8885;
 	text-decoration: none;
 }
-*/
+
 .blue-text { color: #00599a; }
 .red-text { color: #882f33; }
 .gray-text { color: #333333; }
@@ -473,7 +473,7 @@ p:last-child { margin-bottom: 0; }
 		position: absolute;
 		right: 0;
 		top: 77px;
-		background-color: #cc9900;
+		background-color: #b8faff;
 		text-align: right;
 		width: 20em;
 	}
