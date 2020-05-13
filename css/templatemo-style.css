@@ -5,8 +5,8 @@ figure figcaption{
 }
 
 figure img{
-	width: 5em;
-	height: 5em;
+	width: 3em;
+	height: 3em;
 }
 
 button:focus { outline: none; }
