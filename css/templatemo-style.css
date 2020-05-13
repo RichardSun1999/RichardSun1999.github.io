@@ -6,7 +6,6 @@ figure figcaption{
 
 figure img{
 	width: 3em;
-	display: block;
 }
 
 button:focus { outline: none; }
@@ -182,8 +181,7 @@ p:last-child { margin-bottom: 0; }
 */
 
 
-#tm-section-1 {	background-image: url(../src/background1.jpg); 
-		display: block;}
+#tm-section-1 {	background-image: url(../src/background1.jpg); }
 /*#tm-section-1 {	background-color: #287ca8; }*/
 /*#tm-section-2 {	background-image: url(../img/strip-bg-02.jpg); }*/
 #tm-section-2 {	background-color: rgb(63, 10, 150); }
