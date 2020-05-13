@@ -62,7 +62,7 @@ p:last-child { margin-bottom: 0; }
 
 .navbar-row { position: relative; }
 .navbar-container {
-	background-color: #b6e4fc; 
+	background-color: #ffbf40; 
 	font-size: 1em;
 	position: absolute; 
 	display: -webkit-flex;
@@ -76,17 +76,18 @@ p:last-child { margin-bottom: 0; }
 	align-items: center;
 	padding: 40px;
 	z-index: 1000;
-	box-shadow: 4px 4px 12px rgba(0,0,0,0.4)
+	
 }
 
 .navbar {
 	color: white;
 	font-size: 1em;
-	padding: 0;	
+	padding: 0;
+	box-shadow: 4px 4px 12px rgba(0,0,0,0.4);
 }
 
 .navbar-container.sticky {
-	background-color: rgba(153, 204, 0, 0.9);
+	background-color: #b6e4fc;
 	position: fixed;
 	top: 0;
 	left: 0;
