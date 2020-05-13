@@ -62,7 +62,7 @@ p:last-child { margin-bottom: 0; }
 
 .navbar-row { position: relative; }
 .navbar-container {
-	background-color: #cc6600; 
+	background-color: #b6e4fc; 
 	font-size: 1em;
 	position: absolute; 
 	display: -webkit-flex;
@@ -76,6 +76,7 @@ p:last-child { margin-bottom: 0; }
 	align-items: center;
 	padding: 40px;
 	z-index: 1000;
+	box-shadow: 4px 4px 12px rgba(0,0,0,0.4)
 }
 
 .navbar {
