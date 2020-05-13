@@ -3,6 +3,7 @@ figure figcaption{
 	text-transform: none;
 	font-size: 60%;
 	white-space: nowrap;
+	text-align: center
 }
 
 figure img{
