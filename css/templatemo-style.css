@@ -83,7 +83,6 @@ p:last-child { margin-bottom: 0; }
 	color: white;
 	font-size: 1em;
 	padding: 0;
-	box-shadow: 4px 4px 12px rgba(0,0,0,0.4);
 }
 
 .navbar-container.sticky {
@@ -136,7 +135,7 @@ p:last-child { margin-bottom: 0; }
 .current-page,
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-	background-color: #9a9900;
+	background-color: #d6ffad;
 	color: white;
 	text-decoration: none;
 }
